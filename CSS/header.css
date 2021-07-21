@@ -15,6 +15,14 @@
     justify-content: center;
 }
 
+/* 세로 정렬(between) */
+.flex-center-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 /* 세로 정렬(around)*/
 
 .flex-column-around {

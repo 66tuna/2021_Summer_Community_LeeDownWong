@@ -45,7 +45,9 @@
 
     <section> <!-- section start -->
         <div id="mainPage"> <!-- 메인페이지(id) -->
-            <div class="boardMain item"> <!-- 메인페이지 안의 게시판 -->
+            
+            <div class="boardMain item flex-center-between"> <!-- 메인페이지 안의 게시판 -->
+                
                 <div class="mBoard"> <!-- 메인페이지 게시판 -->
                     
                     <div class="mBoardHead"> <!-- 메인페이지 보드의 헤더 -->
@@ -81,42 +83,43 @@
 
                 </div>
 
-                <div class="mBestB"><!-- 최고의 게시판 -->
-                    
-                    <div class="mBestBHead"> <!-- 메인페이지 최고의 게시판 헤더 -->
-                        <p>오늘의 베스트 게시글</p>
+                <div class="mBoardSup"> <!-- 메인페이지 최고의 게시판, 총 게시글 -->
+                    <div class="mBestB"><!-- 최고의 게시판 -->
+
+                        <div class="mBestBHead"> <!-- 메인페이지 최고의 게시판 헤더 -->
+                            <p>오늘의 베스트 게시글</p>
+                        </div>
+
+                        <div class="mBestText"> <!-- 메인페이지 최괴의 게시판 제목과 이름 -->
+                            <a href="#">얘들아 그거 알아?</a>
+                            <p>익명</p>
+                        </div>
+
+                        <div class="mBestImg"> <!-- 메인페이지 최고의 게시물 좋아요와 댓글창 이미지 -->
+                            <img src="/image/human.png" alt="">
+                            <img src="/image/human.png" alt="">
+                        </div>
+
                     </div>
 
-                    <div class="mBestText"> <!-- 메인페이지 최괴의 게시판 제목과 이름 -->
-                        <a href="#">얘들아 그거 알아?</a>
-                        <p>익명</p>
-                    </div>
+                    <div class="mContB"> <!-- 메인페이지 총 게시글 -->
 
-                    <div class="mBestImg"> <!-- 메인페이지 최고의 게시물 좋아요와 댓글창 이미지 -->
-                        <img src="/image/human.png" alt="">
-                        <img src="/image/human.png" alt="">
-                    </div>
-                    
-                </div>
+                        <div class="mContBHead"> <!-- 메인페이지 총 게시글 헤더 -->
+                            <p>총 게시글</p>
+                        </div>
 
-                <div class="mContB"> <!-- 메인페이지 총 게시글 -->
+                        <div class="mCont">
+                            <p>314</p>
+                        </div>
 
-                    <div class="mContBHead"> <!-- 메인페이지 총 게시글 헤더 -->
-                        <p>총 게시글</p>
-                    </div>
+                        <div class="mContInc">
+                            <p>전날 대비 게시글 증가</p>
+                        </div>
 
-                    <div class="mCont">
-                        <p>314</p>
-                    </div>
-
-                    <div class="mContInc">
-                        <p>전날 대비 게시글 증가</p>
-                    </div>
-
-                    <div class="mContAdd">
-                        <p>4↑</p>
-                    </div>
-
+                        <div class="mContAdd">
+                            <p>4↑</p>
+                        </div>
+                     </div>
                 </div>
             </div> <!-- boardMain end  -->
 
