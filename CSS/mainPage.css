@@ -9,62 +9,115 @@
 }
 
 #mainPage .item {
-    background-color: #ffbcd1;
+    /* background-color: #ffbcd1; */
     width: 95%;
     height: 95%;
 }
 
-#mainPage .img, #mainPage img {
-    width: 50px;
-    height: 50px;
+#mainPage .img {
+    width: 4rem;
+    height: 4rem;
 }
+
+
 
 /* boardMain start */
 
 #mainPage .mBoard {
-    width: 70%;
+    width: 60%;
     height: auto;
-    border: 1px solid #000;
+    background-color: #fff;
 }
 
 .mBoardGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2vmin;
+    padding: 2vmin 0;
 }
+
+#mainPage .boardMain img{
+    width: 4rem;
+    height: 4rem;
+}
+
+/* mBoardHead start */
 
 #mainPage .mBoardHead {
     width: 100%;
     height: 6.5vmin;
     border-bottom: 0.1vmin solid #000;
     grid-column: 1/3;
+    
 }
 
 #mainPage .mBoardHead a {
     align-self: flex-start;
     font-size: 1.5vmax;
     font-weight: bold;
-    text-align: center;
+    
 }
 
+/* mBoardHead end */
+
+
+/* mBoardItem start */
 #mainPage .mBoardItem {
     width: 22vmin;
     height: 15vmin;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
 }
 
 #mainPage .mBoardItem a{
     width: 14vmin;
     height: 14vmin;
     background-color: rgba(196, 196, 196, 0.09);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
 }
 
+#mainPage .mBoardItem a img{
+    align-self: flex-start;
+}
 
+#mainPage .mBoardItem a p{
+    width: 9vmin;
+    align-self: flex-end;
+    font-size: 0.7vmax;
+}
+
+/* mBoardItem end */
+
+
+/* mSchoolB start */
 #mainPage .mSchoolB {
     grid-column: 1/3;
+    width: 40.8vmin;
+    height: 20vmin;
+    margin: 0 auto;
 }
 
+#mainPage .mSchoolB a{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
+#mainPage .mSchoolB a img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
 
+#mainPage .mSchoolB a p{
+    position: absolute;
+    top: 1vmin;
+    left: 1.4vmin;
+    z-index: 2;
+}
+
+/* mSchoolB end */
 
 #mainPage .mBoardSup {
     width: 40%;

@@ -9,27 +9,29 @@
 /* flex */
 
 /* 가운데 정렬 */
-.flex-center{
+
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /* 가로 정렬(between) */
-.flex-center-between{
+
+.flex-center-between {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 /* 세로 정렬(between) */
-.flex-column-between{
+
+.flex-column-between {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-
 
 /* 세로 정렬(around)*/
 
@@ -58,16 +60,23 @@ body {
 /* body end */
 
 /* border-radius start */
-.border-radius-2vmin{
+
+.border-radius-2vmin {
     border-radius: 2vmin;
 }
 
 /* .border-radius end */
 
+.box-shadow{
+    box-shadow: 0 0.1rem 0.5rem 0.2rem #c4c4c4;
+}
+
+
 /* mSmallContainer start */
-.mSmallContainer{
-    width: 85%;
-    height: 90%;
+
+.mSmallContainer {
+    width: auto;
+    height: auto;
 }
 
 /* section start */
