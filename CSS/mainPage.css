@@ -24,7 +24,7 @@
 /* boardMain start */
 
 #mainPage .mBoard {
-    width: 60%;
+    width: 40%;
     height: auto;
     background-color: #fff;
 }
@@ -32,7 +32,7 @@
 .mBoardGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2vmin;
+    grid-gap: 1vmin;
     padding: 2vmin 0;
 }
 
@@ -54,8 +54,7 @@
 #mainPage .mBoardHead a {
     align-self: flex-start;
     font-size: 1.5vmax;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 /* mBoardHead end */
@@ -93,8 +92,8 @@
 /* mSchoolB start */
 #mainPage .mSchoolB {
     grid-column: 1/3;
-    width: 40.8vmin;
-    height: 20vmin;
+    width: 40vmin;
+    height: 18vmin;
     margin: 0 auto;
 }
 
@@ -115,13 +114,44 @@
     top: 1vmin;
     left: 1.4vmin;
     z-index: 2;
+    font-weight: bold;
+    font-size: 1vmax;
 }
 
 /* mSchoolB end */
 
+
+/* mBoardSup start */
 #mainPage .mBoardSup {
     width: 40%;
     height: 100%;
 }
+
+/* mBestB Start */
+#mainPage .mBestB{
+    width: 90%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#mainPage .mBestBHead{
+    width: 90%;
+    grid-column: 1/3;
+    height: 5vmin;
+    border-bottom: 0.1vmin solid #000;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#mainPage .mBestBHead a p{
+    font-size: 1vmax;
+    font-weight: bold;
+}
+
+
+
+/* mBoardSup end */
 
 /* boardMain end */
