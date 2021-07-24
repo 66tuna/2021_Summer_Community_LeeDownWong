@@ -1,0 +1,38 @@
+#classPage{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(90vmin, auto) repeat(2, 1fr);
+}
+
+#classPage .classHomework, .classNoticeBir{
+    width: 30%;
+    height: 85%;
+}
+
+#classPage .classImgList{
+    width: 25%;
+    height: 85%;
+}
+
+#classPage .classHomework{
+    background-color: #fff;
+}
+
+#classPage .classHomeworkContainer{
+    width: 80%;
+    height: 100%;
+}
+
+#classPage .CHHead{
+    width: 100%;
+    height: 10vmin;
+    border-bottom: 1.6vmin solid #000;
+}
+
+#classPage .classHomeworkList{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1vmin solid rgba(141, 141, 141, 0.884);
+}
+
