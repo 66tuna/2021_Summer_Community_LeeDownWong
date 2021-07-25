@@ -15,7 +15,6 @@
 #classPage .classHomework, .classNoticeBir{
     width: 90%;
     height: 90%;
-    background-color: #fff;
 }
 
 #classPage .classImgList{
@@ -26,6 +25,11 @@
 
 /* classHomework start */
 
+#classPage .classHomework{
+    background-color: #fff;
+    justify-self: flex-end;
+}
+
 #classPage .classHomeworkContainer{
     width: 90%;
     height: 100%;
@@ -33,8 +37,12 @@
 
 #classPage .CHHead{
     width: 100%;
-    height: 10vmin;
+    height: 9vmin;
     border-bottom: 0.3vmin solid #000;
+}
+
+#classPage .CHHead b{
+    font-size: 1vmax;
 }
 
 #classPage .classHomeworkList{
@@ -72,22 +80,26 @@
 
 /* classHomework end */
 
+
 /* classNoticeBir start */
 
-
 #classPage .classNoticeBirContainer{
+    width: 100%;
+    height: 100%;
+}
+
+#classPage .classNotice{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+#classPage .classNoticeHead{
     width: 90%;
-    height: 100%;
-}
-
-#classNotice{
-    width: 100%;
-    height: 100%;
-}
-
-#classPage .CHHead{
-    width: 100%;
-    height: 10vmin;
+    height: 8vmin;
     border-bottom: 0.3vmin solid #000;
 }
 
+#classPage .classNoticeHead b{
+    font-size: 1vmax;
+}
