@@ -1,0 +1,11 @@
+#workReg{
+    width: 80%;
+    height: 100%;
+    justify-self: flex-end;
+}
+
+#workReg .workRegHead{
+    width: 50%;
+    height: 6vmin;
+    border-bottom: 0.1vmin solid #000;
+}
