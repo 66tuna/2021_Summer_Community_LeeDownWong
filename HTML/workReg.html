@@ -48,15 +48,15 @@
     </header>
 
     <section>
-        <div id="workReg" class="flex-column-around">
+        <div id="workReg" class="flex-column-between">
 
             <div class="workRegHead flex-center">
                 <h3>과제 등록</h3>
             </div>
 
-            <form action="#" method="POST">
+            <form action="#" method="POST" class="flex-column-between">
 
-                <div class="workRegContainer">
+                <div class="workRegContainer flex-column-between">
 
                     <div class="workName"> <!-- 과제 제목 -->
                         <input type="text" placeholder="제목">
@@ -70,7 +70,8 @@
 
                 <div class="workRegBtn">
 
-                    <input type="button" value="제출">
+                    <input type="reset" value="취소" class="box-shadow">
+                    <input type="submit" value="제출" class="box-shadow">
 
                 </div>
 
